@@ -2,12 +2,12 @@ package telusco_corejava;
 
  class student{
 	int marks;
-	stringg name;
+	String name;
 	int rollno;
 }
 
 public class Array_of_objct {
-public static void main(stringg a[]) {
+public static void main(String a[]) {
 	student s1=new student();
 	s1.rollno =1;
 	s1.marks=98;
