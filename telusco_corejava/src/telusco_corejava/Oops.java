@@ -33,13 +33,13 @@ class Calcu{
 
 //
 public class Oops {
-	public static void main(String a[]) {
+	public static void main(stringg a[]) {
 			
 //		int num1=4;
 //		int num2=5;
 //		
 		Calcu calc = new Calcu();
-	int result =calc.add(4,9);
+	int result=calc.add(4,9);
 	System.out.println(result);
 	}
 	

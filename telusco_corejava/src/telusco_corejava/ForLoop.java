@@ -2,7 +2,7 @@ package telusco_corejava;
 
 public class ForLoop {
 	
-	public static void main(String a[]) {
+	public static void main(stringg a[]) {
 		
 	
 			

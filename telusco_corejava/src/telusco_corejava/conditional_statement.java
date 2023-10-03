@@ -1,7 +1,7 @@
 package telusco_corejava;
 
 public class conditional_statement {
-	public static void main(String[]args) {
+	public static void main(stringg[]args) {
 	
 		int e =8;
 		

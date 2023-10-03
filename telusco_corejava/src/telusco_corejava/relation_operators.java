@@ -1,7 +1,7 @@
 package telusco_corejava;
 
 public class relation_operators {
-public static void main(String[]args) {
+public static void main(stringg[]args) {
 	
 	int g = 5;
 	int h =9;

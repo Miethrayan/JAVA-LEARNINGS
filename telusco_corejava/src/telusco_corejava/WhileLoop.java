@@ -1,14 +1,21 @@
 package telusco_corejava;
 
 public class WhileLoop {
-	public static void main(String[]args) {
+	public static void main(stringg[]args) {
 		
 		int i=1;
 		do
 		{
 			System.out.println("hi brother "+ i);
 			i++;
-		}while(i <=4) ;
+			
+			int j=1;
+			while(j<=5) {
+				System.out.println("hi mam"+j);
+				j++;
+			}
+			
+		}while(i<=4) ;
 		
 		
 		

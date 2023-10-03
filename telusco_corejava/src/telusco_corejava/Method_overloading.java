@@ -14,7 +14,7 @@ class Calculator{
 	}
 }
 public class Method_overloading {
-	public static void main (String a[]) {
+	public static void main (stringg a[]) {
 		
 		Calculator obj=new Calculator();
 				int r1 = obj.add(4, 7,5);
