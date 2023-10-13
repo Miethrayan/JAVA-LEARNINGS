@@ -1,11 +1,11 @@
 package telusco_corejava;
 
 public class assignment_operators {
-public static void main(stringg []args) {
+	public static void main(String []args){
 	
 	int a =4;
 //	int b=9;
-	int result = a*8;
+	int result = a*8+9*9*9;
 	System.out.println(result);
 	
 //	fetch the value first 

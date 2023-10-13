@@ -16,7 +16,7 @@ public static void main(String a[]){
 	StringBuffer sb=new StringBuffer("Mike");
 	sb.append("Mieth");
 	sb.insert(2, "Java");
-System.out.println(sb);
+System.out.println(sb.reverse());
 	
 }
 }

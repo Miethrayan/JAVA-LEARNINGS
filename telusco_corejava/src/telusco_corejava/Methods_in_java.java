@@ -9,7 +9,7 @@ class Computer{
 		
 	}
 	
-	public stringg getMeAPen(int cost)
+	public String getMeAPen(int cost)
 	{
 		if(cost>=9)
 		 return "Pen";
@@ -22,12 +22,12 @@ public class Methods_in_java {
 	/**
 	 * @param a
 	 */
-	public static void main(stringg a[]) {
+	public static void main(String a[]) {
 		
 		Computer obj=new Computer();
 		 obj.playMusic();
 		Computer ob=new Computer();
-	stringg str=	ob.getMeAPen(7);
+	String str=	ob.getMeAPen(7);
 	System.out.println(str);
 		
 	}

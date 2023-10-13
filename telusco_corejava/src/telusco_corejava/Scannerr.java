@@ -4,17 +4,25 @@ package telusco_corejava;
 import java.util.Scanner;
 
 public class Scannerr {
-	public static void main(stringg a[]) {
-//		int number;
-		Scanner nm=new Scanner(System.in);
-		System.out.println("Type the number here");
-		int ap =nm.nextInt();
-		int f=1;
+	public static void main(String a[]) {
+////		int number;
+//		Scanner nm=new Scanner(System.in);
+//		System.out.println("Type the number here");
+//		int ap =nm.nextInt();
+//		int f=1;
+//		
+//		for(int i=1;i<=ap;i++) {
+//			 f=f*i;
+////			int g=1+f;
+//			System.out.println(f);
+//	}
 		
-		for(int i=1;i<=ap;i++) {
-			 f=f*i;
-//			int g=1+f;
-			System.out.println(f);
-	}
+//		String call="";
+		Scanner obj=new Scanner(System.in);
+		System.out.println("Type the in put here :");
+		 String call=obj.next();
+		System.out.println("hi"+":"+call);
+		
+		
 }
 }

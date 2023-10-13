@@ -1,8 +1,8 @@
 package telusco_corejava;
 class Mobile2{
 	
-	String name;
-	String brand;
+	 static String name;
+static	String brand;
 	int price;
 	public void show() {
 		
@@ -25,7 +25,7 @@ public class Static_Method {
 		
 		Mobile2 obj2=new Mobile2();
 		obj2.name="Smartphone";
-		obj2.brand="Apple";
+	obj2.brand="Apple";
 		obj2.price=80000;
 		
 //		obj1.show();

@@ -1,7 +1,7 @@
 package telusco_corejava;
 
 public class Enhanced_for_loop {
-public static void main(stringg a[]) {
+public static void main(String a[]) {
 	
 
 	int nums []=new int [4];

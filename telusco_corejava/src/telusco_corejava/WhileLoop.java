@@ -1,7 +1,7 @@
 package telusco_corejava;
 
 public class WhileLoop {
-	public static void main(stringg[]args) {
+	public static void main(String[]args) {
 		
 		int i=1;
 		do

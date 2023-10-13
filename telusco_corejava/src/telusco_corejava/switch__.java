@@ -1,7 +1,7 @@
 package telusco_corejava;
 
 public class switch__ {
-	public static void main(stringg[]args) {
+	public static void main(String[]args) {
 		
 	
 //		String n= "ganesh";
@@ -41,8 +41,8 @@ public class switch__ {
 //		case "wednesday" -> "8am";
 //		default ->"9";
 //		
-		stringg ms="Wednesday";
-		stringg result = "";
+		String ms="Wednesday";
+		String result = "";
 		result= switch (ms) {
 		case "sunday", "Monday" -> "7am";
 		case "tuesday", "Wednesday" -> "8am";
