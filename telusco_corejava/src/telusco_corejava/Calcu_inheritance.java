@@ -1,10 +1,10 @@
 package telusco_corejava;
 
-public class Calcu_inheritance {
-public int add(int n1, int n2) {
-	return n1+n2;
-}
-public int sub(int n1, int n2) {
-	return n1-n2;
-}
+class  Calcu_inheritance {
+public int add(int a, int b,int c) {
+	return a+b+c;
+};
+public int sub(int a, int b,int c) {
+	return a-b-c;
+};
 }

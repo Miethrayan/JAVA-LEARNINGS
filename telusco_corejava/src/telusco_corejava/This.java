@@ -1,5 +1,5 @@
 package telusco_corejava;
-class Human{
+class Huma{
 	private String name;
 	private int age;
 	
@@ -19,7 +19,7 @@ class Human{
 }
 public class This {
 public static void main(String a []) {
-	Human obj=new Human();
+	Huma obj=new Huma();
 	obj.setAge(22);
 	obj.setName("Miethrayan");
 

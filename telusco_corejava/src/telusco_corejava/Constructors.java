@@ -3,10 +3,13 @@ class Human{
 	private int age;
 	private String  name;
 	
-	public Human(){
-		age=22;
-		name="Mike";
-	}
+public Human() {
+	age =12;
+	name ="mike";
+	
+};
+	
+	
 	public int getAge() {
 		return age;
 	}
@@ -25,8 +28,10 @@ class Human{
 public class Constructors {
 	public static void main(String a []) {
 Human obj=new Human();
-//obj.setAge(21);
-//obj.setName("Miethrayan");
+Human obj1=new Human();
+System.out.println(obj.getAge()+" "+obj.getName());
+obj.setAge(21);
+obj.setName("Miethrayan");
 System.out.println(obj.getAge()+" "+obj.getName());
 
 }

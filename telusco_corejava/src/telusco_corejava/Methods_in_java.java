@@ -26,8 +26,8 @@ public class Methods_in_java {
 		
 		Computer obj=new Computer();
 		 obj.playMusic();
-		Computer ob=new Computer();
-	String str=	ob.getMeAPen(7);
+//		Computer ob=new Computer();
+	String str=	obj.getMeAPen(7);
 	System.out.println(str);
 		
 	}

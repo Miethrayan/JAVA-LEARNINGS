@@ -41,17 +41,27 @@ public class switch__ {
 //		case "wednesday" -> "8am";
 //		default ->"9";
 //		
-		String ms="Wednesday";
-		String result = "";
-		result= switch (ms) {
-		case "sunday", "Monday" -> "7am";
-		case "tuesday", "Wednesday" -> "8am";
-		default ->"9am";
+//		String ms="Wednesday";
+//		String result = "";
+//		result= switch (ms) {
+//		case "sunday", "Monday" -> "7am";
+//		case "tuesday", "Wednesday" -> "8am";
+//		default ->"9am";
+//		
+//		
+//		};
+//		System.out.println(result);
 		
+		int number =24;
+		int result =0;
+		result = switch(number) {
 		
+		case 23 ,25 -> 7;
+		case 232 ,253 -> 74;
+		case 24 ,65 -> 72;
+		default -> 65;
 		};
-		System.out.println(result);
-				
+			System.out.println(result);	
 	}
 
 }

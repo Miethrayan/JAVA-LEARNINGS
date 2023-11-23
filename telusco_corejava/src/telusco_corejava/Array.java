@@ -8,7 +8,7 @@ public static void main(String a[]){
 	nums [2]=6;
 	nums [3]=5;
 	nums [4]=4;
-	for(int i=0;i<=4;i++) {
+	for(int i=0;i<=3;i++) {
 	System.out.println(nums[i]);
 	}
 }

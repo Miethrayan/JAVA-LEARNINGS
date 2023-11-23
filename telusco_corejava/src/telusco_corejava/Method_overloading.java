@@ -22,8 +22,8 @@ public class Method_overloading {
 		Calculator obj=new Calculator();
 				int r1 = obj.add(4, 7,5);
 				
-				Calculator obj2=new Calculator();
-				int r2=obj2.minus(9, 8);
+//				Calculator obj2=new Calculator();
+				int r2=obj.minus(9, 8);
 				int r3=r1+r2;
 				System.out.println(r1+":"+r2);	
 System.out.println(r3);

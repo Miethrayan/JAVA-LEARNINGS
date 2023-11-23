@@ -13,10 +13,11 @@ public static void main(String a[]){
 //	System.out.println(sb.reverse());
 //
 //	
-	StringBuffer sb=new StringBuffer("Mike");
-	sb.append("Mieth");
-	sb.insert(2, "Java");
-System.out.println(sb.reverse());
-	
+	StringBuffer sb = new StringBuffer("Miethrayan");
+	sb.append("Mike");
+	sb.insert(2, "Miethfalse");
+	System.out.println(sb);
+	System.out.println(sb.reverse());
+	System.out.println(sb.capacity());
 }
 }

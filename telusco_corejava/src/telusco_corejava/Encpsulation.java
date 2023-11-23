@@ -1,35 +1,41 @@
 package telusco_corejava;
 
-class Human{
+class Humann{
+	
+	
+	
 	private int age;
-	private String  name;
+	 private String name;
 	
-	
+	public void setName(String nme) {
+		name=nme;
+	};
+	public void setAge(int ag) {
+		age=ag;
+	};
 	public int getAge() {
 		return age;
-	}
-	public void setAge(int ag) {
-		age = ag;
-	}
+	};
 	public String getName() {
+		
+		
 		return name;
-	}
-	public void setName(String nam) {
-		name = nam;
-	}
+	};
 	
-
-}
+	
+};
 
 
 public class Encpsulation {
 public static void main(String a []) {
+	Humann obj =new Humann();
+	obj.setAge(21);
+	obj.setName("Miethrayan");
 	
 	
-	Human hm=new Human();
-	hm.setAge(22);
-	hm.setName("Miethraya");
-	System.out.println(hm.getAge()+hm.getName());
+	System.out.println(obj.getAge()+" "+obj.getName());
+	
+
 	
 }
 }

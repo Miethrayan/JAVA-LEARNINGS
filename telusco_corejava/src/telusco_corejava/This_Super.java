@@ -15,13 +15,13 @@ class B extends A{
 		System.out.println("in B");
 	}
 	public B(int N) {
-		super(N);// calls the constructor of super class.
+		super();// calls the constructor of super class.
 		System.out.println("in B int");
 	}
 }
 public class This_Super {
 	public static void main (String a []) {
-		B obj=new B();
+		B obj=new B(7);
 //		A obj1=new A(5);
 	
 	}

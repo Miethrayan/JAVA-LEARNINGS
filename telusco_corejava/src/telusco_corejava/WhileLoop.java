@@ -4,18 +4,20 @@ public class WhileLoop {
 	public static void main(String[]args) {
 		
 		int i=1;
-		do
-		{
-			System.out.println("hi brother "+ i);
+		do {
+			System.out.println("Hello" +i);
+			
+			int j=0;
+			while (j<3) {
+				System.out.println("world" + j);
+				j++;
+			};
 			i++;
 			
-			int j=1;
-			while(j<=5) {
-				System.out.println("hi mam"+j);
-				j++;
-			}
 			
-		}while(i<=4) ;
+		}
+		while(i<0);
+		
 		
 		
 		
