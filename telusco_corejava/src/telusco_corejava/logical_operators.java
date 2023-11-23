@@ -29,7 +29,28 @@ public class logical_operators {
 	String s= "exam:"+9+9+9;
 	System.out.println(s);
 	
+	int x = 5;
+	int y =10;
+	System.out.println(x);
+	System.out.println(y);
+	int z =(x++> 5 && y--<10)?x--:y;
 	
+	System.out.println(z);
+	System.out.println(x);
+	System.out.println(y);
+	
+	int i,j;
+	i=100;
+	j=3000;
+	--i;
+	--j;
+	System.out.println(i);
+	System.out.println(j);
+//	while(++i<=--j);
+//	System.out.println(i);
+//	System.out.println(j);
+//	
+//	i++;
 	
 	
 	}
